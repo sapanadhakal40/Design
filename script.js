@@ -30,6 +30,14 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 
+    // Mouse enter event for showing the products dropdown
+    dropdown.addEventListener('mouseenter', () => {
+        dropdownContent.style.display = 'block'; // Show the dropdown
+    });
 
+    // Mouse leave event for hiding the products dropdown
+    dropdown.addEventListener('mouseleave', () => {
+        dropdownContent.style.display = 'none'; // Hide the dropdown
+    });
 
 });
