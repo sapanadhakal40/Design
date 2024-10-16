@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Website </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="image/HS.png" alt="logo" class="logo">
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars menu-icon"></i>
+            </button>
+            <ul class="nav-link">
+                <li><a href="#home" id="home-link">Home</a></li>
+                <li class="dropdown">
+                    <a href="#products" class="dropdown-link">Products
+                        <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-content">
+                        <li><a href="#living">Living </a></li>
+                        <li><a href="#kitchen">Kitchen</a></li>
+                        <li><a href="#balcony">Balcony</a></li>
+                        <li><a href="#bedroom">Bedroom</a></li>
+                    </ul>
+                </li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="home">
+            <h1>Welcome to my website</h1>
+        </section>
+        <section id="about" class="about-container">
+
+            <article class="about-description">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quam rem architecto saepe nesciunt!
+                    Ipsum
+                    blanditiis at veniam illum iure?</p>
+            </article>
+            <article class="about-item">
+                <h3>Our History</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, velit!</p>
+            </article>
+            <article class="about-item">
+                <h3>Our Mission</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic nam vero eaque eligendi illum aliquid?
+                </p>
+            </article>
+        </section>
+        <section id="products">
+            <h2 class="products-heading">Our Products</h2>
+            <div class="product-wrapper">
+                <div class="product-container">
+                    <article class="product-card">
+                        <img src="/image/white.png" alt="Product Image">
+                        <div class="product-content">
+                            <h3>Armless sofa White & Brown</h3>
+                            <p>Bly Microfiber / Microsuede 56" Armless Loveseat
+                                $367.</p>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <img src="image/red.webp" alt="Product Image">
+                        <div class="product-content">
+                            <h3>Armless sofa red</h3>
+                            <p>Bly Microfiber / Microsuede 56" Armless Loveseat
+                                $367.
+                            </p>
+
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <img src="image/green.webp" alt="Product Image">
+                        <div class="product-content">
+                            <h3>Armless sofa green</h3>
+                            <p>Bly Microfiber / Microsuede 56" Armless Loveseat
+                                $367.
+                            </p>
+
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <img src="image/yellow.webp" alt="Product Image">
+                        <div class="product-content">
+                            <h3>Armless sofa yellow</h3>
+                            <p>Bly Microfiber / Microsuede 56" Armless Loveseat
+                                $367.
+                            </p>
+
+                        </div>
+                    </article>
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2023 Your Company. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
